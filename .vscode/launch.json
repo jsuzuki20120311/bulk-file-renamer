@@ -5,7 +5,7 @@
             "name": "起動",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/helloworld.js",
+            "program": "${workspaceRoot}/script/main.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
