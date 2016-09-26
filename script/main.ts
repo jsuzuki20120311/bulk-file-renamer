@@ -5,7 +5,9 @@ import Product from './models/Product';
 
 class Application {
 
-
+  public test() {
+    return 1;
+  }
 
 
   public start() : void {
