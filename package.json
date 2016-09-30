@@ -1,5 +1,5 @@
 {
-  "name": "hello_typescript",
+  "name": "bulk-file-renamer",
   "version": "1.0.0",
   "description": "",
   "main": "./script/main.js",
