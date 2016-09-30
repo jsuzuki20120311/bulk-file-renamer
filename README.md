@@ -7,6 +7,8 @@ File name bulk change program.
 ## build
 
 ```shell
+$ npm install typescript -g
+$ npm install
 $ npm run build
 ```
 
