@@ -2,10 +2,33 @@
 
 ## Abstract
 
-ファイル名一括変更プログラム
+File name bulk change program.
 
-## how to build
+## build
 
 ```shell
-npm run build
+$ npm run build
+```
+
+## setting
+
+Edit renameList.json.
+
+```json
+  [
+    {
+      "srcPath": "./sample/aaa1.txt", // old file path
+      "distPath": "./sample/aaa3.txt" // new file path
+    },
+    {
+      "srcPath": "./sample/aaa2.txt", // old file path
+      "distPath": "./sample/aaa4.txt" // new file path
+    }
+    //...
+  ]
+```
+
+## execute
+```shell
+$ npm run start
 ```
