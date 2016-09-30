@@ -1,0 +1,10 @@
+  [
+    {
+      "srcPath": "./sample/aaa1.txt",
+      "distPath": "./sample/aaa3.txt"
+    },
+    {
+      "srcPath": "./sample/aaa2.txt",
+      "distPath": "./sample/aaa4.txt"
+    }
+  ]
