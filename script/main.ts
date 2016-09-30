@@ -32,7 +32,7 @@ class BulkFileNameRenamer {
           reject(error);
           return;
         }
-        let renameInfoList = JSON.parse(data);
+        let renameInfoList: Array<RenameInfo> = JSON.parse(data);
         resolve(renameInfoList);
       });
     });
