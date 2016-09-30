@@ -56,29 +56,3 @@ class BulkFileNameRenamer {
 
 let app = new BulkFileNameRenamer();
 app.start();
-
-
-    // fs.readFile(BulkFileNameRenamer.SETTING_FILE_PATH, 'utf8', (err, text) => {
-    //   if (err) {
-    //     console.error(err);
-    //     return;
-    //   }
-    //   let content: Array<RenameInfo> = JSON.parse(text);
-    //   let promises = content.map((item) => {
-    //     return new Promise((resolve, reject) => {
-    //       fs.rename(item.srcPath, item.distPath, (err) => {
-    //         if (err) {
-    //           reject(err);
-    //         } else {
-    //           resolve();
-    //         }
-    //       });
-    //     });
-    //   })
-    //   Promise.all(promises).then(() => {
-    //     console.log('success!');
-    //   }).catch((err) => {
-    //     console.log(err);
-    //     console.trace();
-    //   });
-    // });
