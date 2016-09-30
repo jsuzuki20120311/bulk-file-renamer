@@ -14,7 +14,7 @@ $ npm run build
 
 Edit renameList.json.
 
-```json
+```
   [
     {
       "srcPath": "./sample/aaa1.txt", // old file path
